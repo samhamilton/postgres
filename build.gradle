@@ -13,6 +13,7 @@
  */
 
 apply plugin: 'groovy'
+apply plugin: 'war'
 
 sourceCompatibility = '1.7'
 def moquiDir = file(projectDir.absolutePath + '/../../..')
